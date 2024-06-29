@@ -30,7 +30,6 @@ function sendNotification(type, message) {
     notification.send(message);
 }
 
-// Usage
 sendNotification('email', 'This is an email notification.');
 sendNotification('sms', 'This is an SMS notification.');
 sendNotification('push', 'This is a push notification.');

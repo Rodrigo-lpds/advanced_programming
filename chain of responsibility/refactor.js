@@ -59,7 +59,6 @@ class GuestHandler extends Handler {
   }
 }
 
-// Configuração da cadeia de responsabilidade
 const adminHandler = new AdminHandler();
 const managerHandler = new ManagerHandler();
 const userHandler = new UserHandler();
@@ -67,7 +66,6 @@ const guestHandler = new GuestHandler();
 
 adminHandler.setNext(managerHandler).setNext(userHandler).setNext(guestHandler);
 
-// Uso
 const request1 = new Request("Admin", "Admin request");
 const request2 = new Request("Manager", "Manager request");
 const request3 = new Request("User", "User request");

@@ -1,4 +1,3 @@
-// Subject class
 class Inventory {
   constructor(product) {
     this.product = product;
@@ -22,7 +21,6 @@ class Inventory {
   }
 }
 
-// Observer classes
 class UIObserver {
   update(product, quantity) {
     console.log(`UI updated. ${product} quantity is now ${quantity}.`);
@@ -41,7 +39,6 @@ class ReportObserver {
   }
 }
 
-// Uso
 const inventory = new Inventory("Product A");
 
 const uiObserver = new UIObserver();

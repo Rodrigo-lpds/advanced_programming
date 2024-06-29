@@ -11,7 +11,6 @@ class Logger {
     }
 }
 
-// Freeze the instance to prevent modifications
 const instance = new Logger();
 Object.freeze(instance);
 

@@ -8,6 +8,5 @@ function anotherFunction() {
     logger.log('Logging from anotherFunction');
 }
 
-// Usage
 someFunction();
 anotherFunction();

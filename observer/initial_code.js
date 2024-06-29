@@ -30,7 +30,6 @@ class Inventory {
   }
 }
 
-// Uso
 const inventory = new Inventory("Product A");
 inventory.setQuantity(10);
 inventory.setQuantity(20);

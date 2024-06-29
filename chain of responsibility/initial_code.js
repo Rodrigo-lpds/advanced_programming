@@ -19,7 +19,6 @@ class Handler {
   }
 }
 
-// Uso
 const handler = new Handler();
 handler.process(new Request("Admin", "Admin request"));
 handler.process(new Request("Manager", "Manager request"));
